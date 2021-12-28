@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".UpdatFragment">
+    <EditText
+        android:hint="Tital"
+        android:textSize="30sp"
+        android:id="@+id/tital"
+        android:layout_margin="20dp"
+        android:textColorHint="#000000"
+        android:padding="15dp"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Description"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:textColorHint="#000000"
+        android:padding="15dp"
+        android:id="@+id/desc"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="20dp"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:id="@+id/update"
+        android:background="#0D47A1"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+</LinearLayout>

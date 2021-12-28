@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="password">Password</string>
+    <string name="start">Start</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="wlocome_back">Wlocome back</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="TextTakeGal" />
+    <string name="TextTakeCam" />
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".SignActivity">
+    <EditText
+        android:hint="@string/enter_your_email"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+      android:layout_marginTop="50dp"
+        android:textColorHint="#fff"
+        android:textColor="@color/white"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/email"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="@string/password"
+        android:inputType="numberPassword"
+        android:layout_width="match_parent"
+        android:textColorHint="#fff"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:id="@+id/pass"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/boutton_shape"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30sp"
+        android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:paddingRight="40dp"
+        android:text="@string/start"
+        android:id="@+id/start"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/hom"
+        android:text="@string/home"
+        android:drawableLeft="@drawable/ic_home_black_24dp"
+        android:drawablePadding="15dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#0D47A1"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:drawableLeft="@drawable/ic_favorite_black_24dp"
+        android:drawablePadding="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Favourait"
+        android:id="@+id/fav"
+        android:textSize="20sp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#0D47A1"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Settings"
+        android:textSize="20sp"
+        android:id="@+id/set"
+        android:drawableLeft="@drawable/ic_settings_black_24dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#0D47A1"
+        android:drawablePadding="15dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/log"
+        android:layout_marginTop="20dp"
+        android:text="@string/log_out"
+        android:textSize="20sp"
+        android:layout_marginLeft="16dp"
+        android:drawableLeft="@drawable/ic_close_black_24dp"
+        android:textColor="#0D47A1"
+        android:drawablePadding="15dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/info"
+        android:drawableLeft="@drawable/ic_info_black_24dp"
+        android:drawablePadding="15dp"
+        android:layout_marginTop="20dp"
+        android:text="About Us"
+        android:textSize="20sp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#0D47A1"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+

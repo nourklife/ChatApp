@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#ccc"
+        android:layout_height="wrap_content">
+        <EditText
+            android:hint="Tital"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:hint="@string/descrbtions"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:id="@+id/Desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="Save"
+            android:textAllCaps="false"
+            android:id="@+id/save"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        a
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/RV"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

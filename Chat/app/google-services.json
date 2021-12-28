@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "577512541539",
+    "firebase_url": "https://notes-efb4d.firebaseio.com",
+    "project_id": "notes-efb4d",
+    "storage_bucket": "notes-efb4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577512541539:android:8fc939c8afc9e6488e5756",
+        "android_client_info": {
+          "package_name": "com.example.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577512541539-b9pasa4ppa0ueh6ml4o94202ar0euavo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1kYfcGJVgU0RbCuq9rueebkegIMnYMAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577512541539-b9pasa4ppa0ueh6ml4o94202ar0euavo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
